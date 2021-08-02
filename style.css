@@ -1,0 +1,174 @@
+.titlewrapper
+{
+  background-color: green;
+  border-radius :10px;
+  margin: auto;
+  border: black 5px solid;
+  width:60%;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  padding: 10px;
+  align-items: center;
+  }
+  .creaturebox
+  {
+      background-color: darkgrey;
+      border: darkslategray solid 4px;
+      width: 800px;
+      height: 800px;
+      z-index: -3;
+  }
+  .owlleftfoot
+{
+    height:50px;
+    width:125px;
+    position: absolute;
+    top: 800px;
+    left: 230px;
+    border-radius: 20px 20px 3px 3px;
+    border:saddlebrown solid 4px;
+    background-color: peru;
+    z-index: 0;
+
+}
+.owlrightfoot
+{
+    height:50px;
+    width:125px;
+    position: absolute;
+    top: 800px;
+    left: 410px;
+    border-radius: 20px 20px 3px 3px;
+    border:saddlebrown solid 4px;
+    background-color: peru;
+    z-index: 0;
+}
+
+.owllowerbody
+{
+height:400px;
+    width:350px;
+    position: absolute;
+    top: 420px;
+    left: 210px;
+    border-radius: 90% 90% 30% 30%;
+    border:saddlebrown solid 4px;
+    background-color: rgb(88, 58, 28);
+    z-index: 0;
+}
+.leftwing
+{
+    height:350px;
+    width: 8%;
+    position: absolute;
+    top:425px;
+    left:200px;
+    border-radius: 95% 30% 90% 90%;
+    border:saddlebrown solid 4px;
+    background-color: rgb(150, 97, 45);
+    z-index: 0;
+}
+.rightwing
+{
+    height:350px;
+    width: 8%;
+    position: absolute;
+    top:425px;
+    left:415px;
+    border-radius: 30% 80% 95% 90%;
+    border:saddlebrown solid 4px;
+    background-color:rgb(150, 97, 45) ;
+    z-index: 0;  
+}
+.head
+{
+    height:225px;
+    width: 225px;
+    position: absolute;
+    top:250px;
+    left:270px;
+    border-radius: 90% 90% 30% 30%;
+    border:saddlebrown solid 4px;
+    background-color: rgb(150, 97, 45); 
+    z-index: 0; 
+}
+.lefteye
+{
+    height:75px;
+    width: 75px;
+    position: absolute;
+    top:300px;
+    left:290px;
+    border-radius: 100% 100% 100% 100%;
+    border:saddlebrown solid 4px;
+    background-color:plum
+}
+.righteye
+{
+    height:75px;
+    width: 75px;
+    position: absolute;
+    top:300px;
+    left:400px;
+    border-radius: 100% 100% 100% 100%;
+    border:saddlebrown solid 4px;
+    background-color:plum;  
+}
+.pupilleft
+{
+    height:45px;
+    width: 45px;
+    position: absolute;
+    top:318px;
+    left:418px;
+    border-radius: 100% 100% 100% 100%;
+    border:black solid 2px;
+    background-color: brown;
+}
+
+.pupilright
+{
+    height:45px;
+    width: 45px;
+    position: absolute;
+    top:318px;
+    left:307px;
+    border-radius: 100% 100% 100% 100%;
+    border:black solid 2px;
+    background-color: brown; 
+}
+.pupil2left
+{
+    height:25px;
+    width: 25px;
+    position: absolute;
+    top:328px;
+    left:317px;
+    border-radius: 100% 100% 100% 100%;
+    border:black solid 2px;
+    background-color: black;  
+}
+.pupil2right
+{
+    height:25px;
+    width: 25px;
+    position: absolute;
+    top:328px;
+    left: 428px;
+    border-radius: 100% 100% 100% 100%;
+    border:black solid 2px;
+    background-color: black;  
+}
+.beak
+{
+    position: absolute;
+    background-color: peru;
+    border: black 2px solid;
+    width: 30px;
+    height: 35px;
+    top:365px;
+    left: 375px;
+    border-radius: 10px 90px 20px 10px;
+
+}
